@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    color: #fff;
+    background-color: #343434;
+}
+
+.container {
+    width: 26%;
+}
+
+.card {
+    border-radius: 50px;
+    background: #343434;
+    box-shadow:
+        5px 5px 10px #050202,
+        -5px -5px 10px #595959;
+    padding: 3%;
+    text-align: center;
+}
+
+.card h4 {
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+img#icon {
+    width: 20%;
+}
+
+h6#weather {
+    text-transform: capitalize;
+}
+
+button.refresh,
+button.fetch-weather,
+button.current-location {
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+    background: transparent;
+    border: 0;
+    color: #9c9c9d;
+    font-size: 13px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow:
+        10px 4px 10px #252525,
+        5px 5px 18px #4a4a4a;
+}
+
+button.refresh:hover,
+button.fetch-weather:hover,
+button.current-location:hover {
+    box-shadow:
+        inset 10px 4px 10px #252525,
+        5px 5px 18px #4a4a4a;
+}
+
+input#cityInput {
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 25px;
+    border: none;
+    box-shadow:
+        inset 5px 5px 10px #252525,
+        inset -5px -5px 10px #595959;
+    background: #343434;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
